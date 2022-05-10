@@ -14,20 +14,33 @@
 
     <!-- Header section start-->
     <header>
-        <div class="navbar">
+        <div class="navbar" id="navbar">
             <div class="container">
-                <div class="navigation">
-                    <div class="logo">
-                        <a href="#">Hilton Hotels & Resors Tashkent</a>
+                <div class="nav">
+                    <div class="navigation">
+                        <div class="logo">
+                            <a href="#">Hilton Hotels & Resors Tashkent</a>
+                        </div>
+                        <div class="navbar-nav">
+                            <i style="color: #fff;" class="fas fa-bars"></i>
+                            <a href="#">home</a>
+                            <a href="#design">services</a>
+                            <a href="#blog">blog</a>
+                            <a href="#about">about</a>
+                        </div>
                     </div>
-                    <div class="navbar-nav">
-                        <i style="color: #fff;" class="fas fa-bars"></i>
-                        <a href="#">home</a>
-                        <a href="#design">services</a>
-                        <a href="#blog">blog</a>
-                        <a href="#about">about</a>
-                    </div>
+                    
+         <div class="soat">
+            <div class="clock">
+                     <span class="soatt"></span>
+                     <span>:</span>
+                     <span class="minutes"></span>
+                     <span>:</span>
+                     <span class="secondes"></span>
+            </div>
+         </div>
                 </div>
+
             </div>
         </div>
         <!--End of Navbar-->
@@ -248,19 +261,6 @@
 
 
 
-     <script>
-        vaqt = Data();
-        raqam = vaqt.getDay();
-        kunlar = new Array(
-            "Yakshanba",
-            "Dushanba",
-            "Seyshanba",
-            "Chorshanba",
-            "Payshanba",
-            "Juma",
-            "Shanba"
-        );
-        document.write(kunlar[raqam]);
-               </script>
+  <script src="js.js"></script>
 </body>
 </html>
